@@ -19,7 +19,11 @@ https://feature-sliced.design/
 
 ### Key points 
 `src/app/main.ts` - Entry point
+
 `src/app/appController.ts` - General game logic
-`src/pages/AceOfShadows/` - Ace of Shadows
-`src/pages/MagicWords/` - Magic Words
-`src/pages/PhoenixFlame/` - Phoenix Flame
+
+`src/pages/AceOfShadows/` - Ace of Shadows screen
+
+`src/pages/MagicWords/` - Magic Words screen
+
+`src/pages/PhoenixFlame/` - Phoenix Flame screen

@@ -86,6 +86,7 @@ class AppControllerClass {
     Scene.app.renderer.on('resize', this.resize, this)
   }
 
+  // change screen method
   private showScreen(screen: typeof this.activeScreen) {
     if (screen === this.activeScreen)
       return
