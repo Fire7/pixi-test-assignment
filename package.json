@@ -1,0 +1,24 @@
+{
+  "name": "softgames-pixi-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm run assets && npm run dev",
+    "build": "npm run assets && npm run lint && tsc && vite build",
+    "lint": "eslint src",
+    "lint-fix": "npm run lint -- --fix",
+    "dev": "vite",
+    "assets": "assetpack -c .assetpack.mjs"
+  },
+  "dependencies": {
+    "@pixi/ui": "^2.3.2",
+    "pixi.js": "^8.16.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.1.0",
+    "@assetpack/core": "^1.5.0",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0"
+  }
+}
