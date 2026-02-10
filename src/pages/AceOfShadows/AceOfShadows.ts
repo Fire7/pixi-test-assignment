@@ -103,7 +103,7 @@ export class AceOfShadows extends Screen {
         normalizeClamp(this.animationTime, min, max),
       )
       card.x = this.deckGap * progress
-      card.y = index * CARD_OFFSET + (i * CARD_OFFSET - index * CARD_OFFSET) * progress
+      card.y = CARD_OFFSET * (index + (i - index) * progress)
       card.zIndex = progress > 0.5 ? i : index
     }
 
